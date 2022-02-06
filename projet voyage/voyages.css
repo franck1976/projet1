@@ -1,0 +1,1022 @@
+
+@font-face
+{
+font-family: 'Raleway-light';
+src: url('texte/static/Raleway-Light.ttf');
+}
+
+
+body
+{
+font-family: 'Raleway-light', Arial, sans-serif;
+}
+
+.logo 
+{display:flex;
+   justify-content: space-between;
+width: 93%; }
+
+.booki img
+{width: 100px; 
+   height: 50px;
+   margin-left: 45px;
+   margin-top: 20px;}
+
+
+ul
+{
+display:flex;
+list-style-type:none;
+ }
+
+header li
+{
+display:inline-flex;
+}
+
+ header a
+{
+display:inline-flex;
+margin-right: 10px;
+height: 50px;
+text-decoration: none;
+-webkit-transition: color 1s;
+transition:color 1s;
+line-height: 50px;
+text-align: right;
+color: black;
+padding-top: 10px;
+border-top:1px solid white;
+
+}
+
+header a:hover
+{color:#0065fc;
+border-top: 1px solid #0065fc;
+}
+
+.logo1 h1
+{
+font-size: 20px;
+margin-left: 45px;
+}
+
+.logo1 p
+{margin-left: 45px;}
+
+.location
+{
+width: 10px;
+height: 10px;
+background-color: #f2f2f2;
+border-radius: 10px 0px 0px 10px;
+padding:11px;
+}
+
+.search
+{
+border-color: #f2f2f2;
+height:30px;
+font-weight: bold;
+border-left: none;
+border-bottom:1px #f2f2f2 solid;
+border-top:1px #f2f2f2 solid;
+padding:0px;
+text-align: center;
+}
+
+.moteur
+{margin-left:45px;}
+
+
+form .submi
+{
+background-color: #0065fc;
+color:white;
+border-radius: 0px 10px 10px 0px;
+border:none;
+pointer-events: none;
+height: 30px;
+}
+
+.moteur i
+{color: white;}
+
+
+
+
+
+form .flex-container
+{
+display: flex;
+width: 10px;
+height: 30px;
+margin-bottom: 30px;
+}
+
+
+
+.filtres p
+{
+font-weight: bold;
+margin-top:0px;
+font-weight: bold;
+margin-right:50px;
+margin-left: 45px;
+}
+
+
+.filtres .submit
+{
+background-color:white;
+color:black;
+border-color:black;
+}
+
+
+
+.filtres, .flex-container1, .flex-container2, .flex-container3, .flex-container4
+{display: inline-flex;}
+
+
+
+.filtres .submit
+{
+margin-right:60px;
+border-left: none;
+padding-right: 30px;
+height: 30px;
+border-color: #f2f2f2;
+border-style: solid;}
+
+
+.flex-container1, .flex-container2, .flex-container3, .flex-container4
+{
+position:relative;
+}
+
+.filtres .submit:hover, .flex-container2 .submit:hover, .flex-container3 .submit:hover, .flex-container4 .submit:hover
+{background-color: #77b5fe;}
+
+.flex-container1 i, .flex-container2 i, .flex-container3 i, .flex-container4 i
+{
+position:absolute;
+}
+
+.flex-container1 .submit,.flex-container2 .submit,.flex-container3 .submit,.flex-container4 .submit
+{
+padding-left: 40px;
+border-radius: 25px;
+border-width: 1px;
+}
+
+
+.flex-container1 i, .flex-container2 i, .flex-container3 i, .flex-container4 i, .filtres 
+{
+height: 30px;
+line-height: 30px;
+}
+
+.flex-container1 i, .flex-container2 i, .flex-container3 i, .flex-container4 i
+{
+color:#0065fc;
+background-color: #DEEBFF;
+border-radius: 25px;
+}
+
+.flex-container1 i,.flex-container2 i, .flex-container3 i, .flex-container4 i
+{width:30px;
+text-align: center;}
+
+.filtres
+{
+height: auto;}
+
+.information
+{display:inline-flex;
+margin-left: 45px;
+}
+
+.information p
+{margin-left: 15px;}
+
+.information i
+{
+padding-top: 5px;
+color:#0065fc;
+font-size: 8px;
+width: 20px;
+height: 15px;
+border:1px solid #DEEBFF;
+border-radius: 25px;
+text-align: center;
+margin-top: 15px;
+}
+
+
+
+
+
+.heberge
+{display:inline-flex;
+justify-content:space-around;
+width: 100%;
+align-items: flex-start;
+vertical-align: top;
+}
+
+.hebergement h1
+{margin-left: 15px;}
+
+.hebergement img
+{background-size: cover;
+height: 120px;
+max-width: 100%;
+}
+
+
+.hebergement
+{display:flex;
+   flex-direction: column;
+width: 100%;
+background-color: #f2f2f2;
+border-radius: 25px;
+margin-left: 40px;
+
+}
+
+.section
+{display:flex;
+flex-wrap: wrap;
+justify-content: space-around;
+width: 100%;
+}
+
+.hebergement a
+{margin-left: 20px;
+width: 25%;
+
+margin-bottom: 20px;
+ }
+
+ 
+
+
+.hebergement h1, aside h1
+{font-size: 20px;
+   }
+
+.hebergement h1
+{margin-left: 40px;
+}
+
+
+.hebergement h2, .hebergement p
+{font-size: 15px;
+color:black;
+text-align: left;
+margin-left: 25px;
+max-width: 100%;
+}
+
+.star
+{color:#0065fc;
+text-align: left;
+margin-left: 25px;
+
+max-width: 100%;
+}
+
+#star1, #star2, #star3, #star4, #star5, #star6, #star7
+{color:#f2f2f2;
+   max-width: 100%;
+   padding-bottom: 10px;
+}
+
+
+
+
+.lit img, .gris img, .mouettes img, .mer img, .panier img, .amina img
+{width: 97%; 
+   object-fit: cover;
+border-radius: 25px 25px 0 0;
+}
+
+.lit, .gris, .mouettes, .mer, .panier, .amina
+{background-color: white;
+border-radius: 25px;
+width: 100%;
+height: 100%;
+text-align: center;
+}
+
+.lit
+{margin-bottom: 20px;}
+
+
+
+a:link 
+{ 
+ text-decoration:none; 
+
+} 
+
+.afficher 
+{font-weight: bold;
+width: 100%;
+}
+
+
+aside h2, aside p
+{font-size: 15px;
+color:black;
+text-align: left;
+margin-left: 10px;
+
+}
+
+aside
+{
+display:flex;
+flex-direction: column;
+background-color: #f2f2f2;
+border-radius: 25px;
+width: 40%;
+height:100%;
+margin-left: 80px;
+margin-right: 100px;
+
+}
+
+.populaire
+{display:flex;
+flex-direction: column;
+justify-content:space-between;
+text-align: center;
+height:570px;
+}
+
+
+.star i
+{font-size: 70%;}
+
+.bourse1
+{display:inline-flex;
+justify-content: space-between;
+width: 90%;
+}
+
+.bourse1 h1
+{margin-left: 40px;
+}
+
+.bourse1 i
+{margin-top: 20px;
+}
+
+aside img
+{background-size: cover;
+   height: 100%;
+max-width: 100%; 
+}
+
+.vert
+{
+display:inline-flex;
+}
+   
+.vert h2, .vert p
+{font-size: 15px;
+color:black;
+}
+
+.vert img
+{
+background-size: cover;
+height:100%;
+float: left;
+object-fit: cover; 
+border-radius: 25px 0 0 25px;
+width: 32%; 
+   }
+
+.vert
+{
+background-color: white;
+border-radius: 25px;
+width: 90%;
+height:150px;
+text-align: center;
+padding-top:5px;
+padding-bottom: 5px;
+padding-left:4px;
+
+}
+
+.hote
+{
+display:inline-flex;}
+
+.hote h2, .hote p
+{font-size: 15px;
+color:black;
+
+}
+
+.hote img
+{
+background-size: cover;
+height:auto;
+width: 32%; 
+float: left;
+max-width: 100%; 
+object-fit: cover; 
+border-radius: 25px 0 0 25px;
+   }
+
+.hote
+{
+background-color: white;
+border-radius: 25px;
+width: 90%;
+height: 150px;
+text-align: center;
+padding-top:5px;
+padding-bottom: 5px;
+padding-left:4px;
+margin-top: 38px;
+
+}
+
+.blanc
+{
+display:inline-flex;
+}
+
+.blanc h2, .blanc p
+{font-size: 15px;
+color:black;
+vertical-align: baseline;
+
+}
+
+.blanc img
+{
+background-size: cover;
+height:auto;
+width: 32%;
+float: left; 
+object-fit: cover; 
+border-radius: 25px  0 0 25px;
+max-width: 100%; 
+   }
+
+.blanc
+{
+background-color: white;
+border-radius: 25px;
+width: 90%;
+height:150px;
+text-align: center;
+padding-top:5px;
+padding-bottom: 5px;
+padding-left:4px;
+margin-top: 38px;
+margin-bottom: 40px;
+
+}
+
+
+.port
+{width: 20%;}
+
+.vieu
+{border-radius: 25px 25px 0 0;
+width: 100%;
+height: 400px;
+overflow: hidden;
+object-fit: cover;
+}
+
+
+.vieux
+{width: 100%;
+margin-right: 0px;
+border-radius: 25px 25px 25px 25px;
+box-shadow: 2px 2px 2px 2px #f2f2f2;}
+
+.pomegue
+{width: 20%;}
+
+.forte
+{border-radius: 25px 25px 0 0;
+width: 100%;
+height: 205px;
+overflow: hidden;
+object-fit: cover;}
+
+.fort
+{width: 100%;
+border-radius: 25px 25px 25px 25px;
+box-shadow: 2px 2px 2px 2px #f2f2f2;}
+
+.ile
+{width: 20%;}
+
+
+.frioule
+{border-radius: 25px 25px 0 0;
+width: 100%;
+height: 125px;
+overflow: hidden;
+object-fit: cover;}
+
+.frioul
+{width: 100%;
+border-radius: 25px 25px 25px 25px;
+box-shadow: 2px 2px 2px 2px #f2f2f2;}
+
+.national
+{width: 20%;}
+
+.parce
+{border-radius: 25px 25px 0 0;
+width: 100%;
+height: 400px;
+overflow: hidden;
+object-fit: cover;}
+
+
+.parc
+{width: 100%;
+border-radius: 25px 25px 25px 25px;
+box-shadow: 2px 2px 2px 2px #f2f2f2;}
+
+.dame
+{width: 100%;}
+
+.gardes
+{border-radius: 25px 25px 0 0;
+width: 100%;
+height: 165px;
+overflow: hidden;}
+
+.garde
+{width: 100%;
+border-radius: 25px 25px 25px 25px;
+box-shadow: 2px 2px 2px 2px #f2f2f2;}
+
+.long
+{width: 100%;}
+
+.longchamps
+{border-radius: 25px 25px 0 0;
+width: 100%;
+height: 165px;
+overflow: hidden;}
+
+.longchamp
+{width: 100%;
+border-radius: 25px 25px 25px 25px;
+box-shadow: 2px 2px 2px 2px #f2f2f2;}
+
+.section2
+{display:flex;
+justify-content: space-around;
+}
+
+.section2 p
+{font-size: 15px;
+color: black;
+margin-left: 30px;
+font-weight: bold;
+}
+
+.activite
+{
+max-width: 96%;
+}
+
+.activite h1
+
+{display:flex;
+   margin-left: 40px;}
+
+.activite p
+{padding-bottom: 20px;}
+
+.foot
+{display:flex;
+justify-content:space-around;
+background-color: #f2f2f2;
+max-width: 100%;}
+
+.propos h3
+{font-size: 15px;}
+
+.propos
+{
+width: 30%;}
+
+
+
+
+
+
+
+@media (min-width:768px) and (max-width:991px)
+{
+
+body
+{max-width:100%;
+margin:0;}
+
+.logo nav
+{margin-right:12%;}
+
+header .logo
+{
+display:flex;
+list-style-type:none;
+justify-content: space-between;
+max-width: 100%;
+width: 100%;}
+
+
+.filtres
+{max-width: 100%;
+width: 100%;}
+
+.flex-container1, .flex-container2, .flex-container3, .flex-container4
+{width: 150px;}
+
+.heberge
+{display: flex;
+flex-direction: column;}
+
+.section
+{display:flex;
+flex-wrap: wrap;
+justify-content: space-around;
+}
+
+.hebergement
+{display:flex;
+flex-direction: column;
+max-width: 90%;
+max-height: 90%;
+background-color: #f2f2f2;
+border-radius: 25px;
+}
+
+.section .lit, .section .gris, .section .mouettes, .section .mer, .section .panier, .section .amina
+{width: 100%;
+height:230px;
+}
+
+.section h2, .section p
+{margin:5px;}
+
+aside .bourse1
+{width:90%;}
+
+
+aside
+{width: 90%;
+margin-left: 40px;
+margin-top: 5%;}
+
+aside .populaire
+{width: 90%;
+}
+
+aside .populaires
+{width: 100%;
+}
+
+aside
+{display:flex;
+flex-direction: column;
+width: 90%;
+height: 750px;}
+
+.heberge p, .heberge h2
+{font-size:100%;}
+
+aside .vert, aside .hote, aside .blanc
+{width: 100%;
+margin-left:35px;
+margin-top:5%;
+}
+
+
+.pope .verte, .pope .hotes, .pope .blanche
+{width:40%;
+height:100%;
+}
+
+
+
+
+.activite .vieux, .activite .parc
+{width: 100%;
+}
+
+.activite .garde, .activite .longchamp
+{width: 100%;}
+
+.activite .frioul, .activite .fort
+{width: 100%;}
+
+.activite .vieu, .activite .forte, .activite .frioule, .activite .parce, .activite .gardes, .activite .longchamps
+{width: 100%;}
+
+.activite .vieu
+{height:250px;}
+
+.activite .parce
+{height: 230px;}
+
+.activite .forte
+{height: 105px;}
+
+.activite .frioule
+{height: 75px;}
+
+.activite .gardes, .activite .longchamps
+{height:90px;}
+
+
+footer
+{width: 100%;}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width:767px)
+{
+
+   body
+   {width:100%;
+   margin:0}
+
+.logo
+{display:flex;
+flex-direction: column;
+width: 100%;
+}
+
+.booki
+{text-align: center;
+}
+
+ul
+{
+display:flex;
+list-style-type:none;
+justify-content: space-around;
+ }
+
+
+
+ header a
+{
+display:inline-flex;
+
+margin-right: 10px;
+height: 50px;
+text-decoration: none;
+line-height: 50px;
+text-align: right;
+color: black;
+}
+
+.acte:hover, .heber:hover
+{color:#0065fc;
+border-bottom: 1px solid #0065fc;
+padding-top:10px;
+border-top:white;}
+
+.moteur
+{display:inline-flex;
+}
+
+.submi
+{display:none;}
+
+.location
+{position: absolute;}
+
+
+.search
+{border-right: none;
+position: absolute;
+left: 77px;
+}
+
+.moteur i
+{opacity:1;
+   border-radius: 10px;
+background-color: #0065fc;
+color: white;
+font-size: 10px;
+padding:11px;
+position: absolute;
+left:249px;}
+
+
+
+.flex-container
+{text-align: start;}
+
+
+.container
+{display:flex;}
+
+.flex-container1, .flex-container2, .flex-container3, .flex-container4, .filtres
+
+{display:flex;
+flex-direction: column;
+margin-left: 0px;
+margin-bottom: 5px;}
+
+.flex-container1
+{width: 150px;
+max-width: 240px;
+margin-left: 40px;
+margin-right: 10px;}
+
+.flex-container2
+{width: 130px;
+max-width: 210px;
+}
+
+.flex-container3, .flex-container4
+{margin-left:40px;
+width: 140px;
+max-width: 210px;}
+
+.flex-container4
+{margin-left:40px;
+   width: 170px;
+   max-width: 210px;}
+
+
+form .submit
+{width: 100%;}
+
+.flex-container2
+{margin-left: 0px;}
+
+.flex-container3, .flex-container4
+{margin-left: 40px;}
+
+.filtres 
+{margin-left: 0px;}
+
+
+.heberge
+{display:flex;
+flex-wrap:wrap-reverse;
+
+}
+
+
+
+.section
+{display: flex;
+flex-direction: column;
+width: 95%;
+border:none;
+background-color: white;}
+
+.section a
+{margin-left: 0px;}
+
+
+
+section .hebergement
+{width:100%;
+padding-left: 0px;
+margin-left: 0px;
+border-radius: 0;
+background-color: white;}
+
+
+.hebergement h1
+{background-color: white;
+margin-left: 0px;
+}
+
+
+.afficher
+{width: 40%;}
+
+
+body aside 
+{
+width: 100%;
+border-radius: 0;
+margin-left: 0px;
+margin-right: 0px;
+}
+
+
+aside .pope
+{
+width: 100%;}
+
+
+
+aside .vert, aside .hote, aside .matin, aside .blanc
+{width: 93%;
+}
+
+aside .hotel
+{width: 100%;}
+
+
+
+
+
+.premièresection
+{width: 100%;
+margin-left: 20px;}
+
+
+.hebergement h1
+{margin-left: 0px;}
+
+.hebergement a
+{width: 100%;
+margin-bottom: 6%;
+}
+
+
+section .lit, section .gris, section .mouettes, section .mer, section .panier, section .amina
+{margin-left: 0px;
+width: 95%;
+box-shadow: 2px 2px 2px 2px #f2f2f2;
+}
+
+section .activite 
+{display:flex;
+flex-direction: column;
+margin-left:20px;
+}
+
+.activite .vieux, .activite .fort, .activite .frioul, .activite .parc, .activite .garde, .activite .longchamp
+{width: 90%;
+   margin:0;
+margin-left: 5px;
+}
+
+.activite .vieu, .activite .forte, .activite .frioule, .activite .parce, .activite .gardes, .activite .longchamps
+{width: 100%;
+ height:170px;}
+
+ .national, .port
+ {width: 100%;}
+
+.section2
+{display:flex;
+flex-direction: column;
+width: 100%;
+}
+
+.foot
+{display:flex;
+flex-direction: column;
+align-content: space-around;
+width: 100%;
+height: 440px;
+}
+
+footer .propos
+{margin-left: 20px;
+width: 94%;
+ }
+
+footer p
+{width: 250px;
+margin-top:0px;
+margin-bottom:7px}
+
+.propos h3
+{margin-top:0px;}
+
+.propos p
+{margin-bottom: 7px;}
+}
+  
+
+
